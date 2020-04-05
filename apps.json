@@ -1094,7 +1094,7 @@
     "name": "Rugby Ref App",
     "shortName":"Rugby Ref",
     "icon": "app.png",
-    "version":"0.01",
+    "version":"0.02",
     "description": "This is a simple app for junior rugby referees",
     "tags": "timer,scoring,sport,rugby",
     "storage": [
