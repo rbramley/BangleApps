@@ -54,11 +54,12 @@ function startTimer() {
   counter = 30;
   scoreA = 0;
   scoreB = 0;
-  setWatch(incScoreA, BTN1, { repeat: true });
-  setWatch(incScoreB, BTN3, { repeat: true });
   countDown();
   if (!counterInterval)
     counterInterval = setInterval(countDown, 1000);
 }
+
+setWatch(incScoreA, BTN1, { repeat: true });
+setWatch(incScoreB, BTN3, { repeat: true });
 
 startTimer();
